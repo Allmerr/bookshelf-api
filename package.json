@@ -1,0 +1,17 @@
+{
+    "name": "bookshelf-api",
+    "version": "1.0.0",
+    "description": "bookshelf api | dicoding project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "start-dev": "nodemon src/server.js"
+    },
+    "author": "Muhammad Kevin Almer",
+    "license": "MIT",
+    "dependencies": {
+        "@hapi/hapi": "^21.3.0",
+        "nanoid": "^3.3.4",
+        "nodemon": "^2.0.21"
+    }
+}
